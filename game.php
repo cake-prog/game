@@ -70,9 +70,9 @@ class Play extends Hello
             }
 
             if ($guess < $secretNumber) {
-                echo "Слишком мало! Попробуй еще раз.\n";
+                echo "Слишком мало!\n";
             } elseif ($guess > $secretNumber) {
-                echo "Слишком много! Попробуй еще раз.\n";
+                echo "Слишком много!\n";
             } else {
                 echo "Поздравляю! Ты угадал число $secretNumber с $attempts попытки!\n";
                 return;
